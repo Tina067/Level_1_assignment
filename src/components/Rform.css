@@ -1,0 +1,65 @@
+/* Rform.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the section horizontally */
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 800px; /* Control the maximum width of the section */
+    border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    background-color: #fff; /* Optional: Set background color */
+  }
+  
+  .heading, .second-heading, .fields {
+    width: 100%; /* Ensure the inner divs take the full width of the section */
+  }
+  
+  .heading .main-Heading, .second-heading .sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .heading .main-text, .second-heading .sub-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .fields form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fields label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .fields input, .fields select {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
